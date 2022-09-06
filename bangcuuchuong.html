@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let bAng;
+    bAng="<table border='1' width='300' cellspacing='0' cellpadding='3'>"
+    for(i= 1; i <10; i++) {
+        bAng = bAng + "<tr>";
+        for (j = 2; j < 10; j++) {
+            bAng = bAng + "<td>"+j+"*"+i+"=" + j * i + "</td>";
+        }
+        bAng = bAng + "</tr>";
+    }
+    bAng=bAng+"</table>"
+    document.write(bAng)
+</script>
+
+</body>
+</html>
